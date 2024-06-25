@@ -7,9 +7,13 @@
     }
   ],
   "functions": {
-    "api/**/*.ts": {
+    "api/uploadthing/**/*.ts": {
       "memory": 1024,
-      "maxDuration": 60
+      "maxDuration": 10
+    },
+    "api/webhook/clerk/**/*.ts": {
+      "memory": 1024,
+      "maxDuration": 10
     }
   },
   "routes": [
