@@ -1,10 +1,10 @@
 {
     "functions": {
-      "api/uploadthing/route.ts": {
-        "maxDuration": 60
+      "api/uploadthing/route": {
+        "maxDuration": 10
       },
-      "api/webhook/clerk/route.ts": {
-        "maxDuration": 60
+      "api/webhook/clerk/route": {
+        "maxDuration": 10
       }
     }
   }
