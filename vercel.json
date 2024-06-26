@@ -1,9 +1,9 @@
 {
     "functions": {
-      "api/uploadthing/route": {
+      "api/uploadthing": {
         "maxDuration": 10
       },
-      "api/webhook/clerk/route": {
+      "api/webhook/clerk": {
         "maxDuration": 10
       }
     }
